@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 int add(int a, int b) {
   return a + b;
 }
@@ -28,3 +29,12 @@ void main(List<String> args) {
   result3 = add3(b: 1);
   print(result3);
 }
+=======
+int add (int a,int b){
+  return a+b;
+  }
+
+void main List<String> args{
+  
+}
+>>>>>>> Stashed changes

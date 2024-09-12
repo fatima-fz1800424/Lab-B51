@@ -6,6 +6,7 @@ void main(List<String> args) {
   double height = 5.9;
 
   print("Name is " + name + " and age is " + age.toString());
+<<<<<<< Updated upstream
   print("Name is $name and age is $age and height is $height");
 
   // const and final
@@ -66,4 +67,23 @@ void main(List<String> args) {
   for (int number in setNumbers) {
     print(number);
   }
+=======
+  print("Name is $name and age is $age");
+//swith case
+int grade=90;
+switch (grade){
+  case 90: // case >90 && <100  //
+  print("A");
+  case 80:
+  print("B");
+default:
+print("you failed"); 
+
+}
+//in switch statement can be able to display many ways by dart 
+String whatIsTheLetterGrade=switch(grade){
+  >=90 && <100 => "A",
+  >=80
+}
+>>>>>>> Stashed changes
 }
